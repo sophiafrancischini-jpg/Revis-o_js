@@ -1,0 +1,11 @@
+alert('Conversor de salário');
+let salario = Number(prompt('Salário mensal:'));
+let horas = Number(prompt('Horas trabalhadas por mês:'));
+
+let valorHora = salario / horas;
+let valorMinuto = valorHora / 60;
+let valorSegundo = valorMinuto / 60;
+
+alert('Valor da hora: R$ ' + valorHora);
+alert('Valor do minuto: R$ ' + valorMinuto);
+alert('Valor do segundo: R$ ' + valorSegundo);

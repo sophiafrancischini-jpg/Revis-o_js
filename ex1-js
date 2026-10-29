@@ -1,0 +1,16 @@
+alert("Bem vindo a calculadora");
+let numero1 = Number(prompt('Digite o primeiro numero '));
+let numero2 = Number(prompt(('Digite o segundo número')));
+
+let soma = (numero1 + numero2);
+    let subtracao = (numero1 - numero2);
+        let mult = (numero1 * numero2);
+            let divisao = (numero1 / numero2);
+                let resto = (numero1 % numero2);
+                    let potencia = (numero1 ** numero2);
+alert("soma:" + soma);
+alert("Subtração: " + subtracao);
+alert("Multiplicação: " + mult);
+alert("Divisão: " + divisao);
+alert("Resto da divisão:" + resto);
+alert ("Potenciação: "+ potencia)
